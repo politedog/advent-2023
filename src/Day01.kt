@@ -36,10 +36,12 @@ fun main() {
     val testInput = readInput("Day01_test")
     checkEqual(part1(testInput), 142)
 
-    val input = readInput("Day01")
-    part1(input).println()
-
     val testInput2 = readInput("Day01_test2")
     checkEqual(part2(testInput2), 385)
+
+    val input = readInput("Day01")
+    "Part 1:".println()
+    part1(input).println()
+    "Part 2:".println()
     part2(input).println()
 }
